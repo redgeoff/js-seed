@@ -12,7 +12,7 @@
     "seed"
   ],
   "author": "Geoffrey Cox",
-  "license": "Apache",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/redgeoff/js-seed/issues"
   },
