@@ -19,11 +19,11 @@ You can also check for 100% code coverage using:
 
 Run specific tests:
 
-    $ npm run node-test -- -- -g 'some regex'
+    $ npm run node-test -- -- -g 'some reg-ex'
 
 Run specific tests and generate code coverage:
 
-    $ npm run node-test -- -- --coverage -g 'some regex'
+    $ npm run node-test -- -- --coverage -g 'some reg-ex'
 
 
 ## Manual browser tests
@@ -41,7 +41,7 @@ phantomjs:
 
 You can also filter the tests, e.g.
 
-    $ npm run browser-test-phantomjs -- -g reg-ex
+    $ npm run browser-test-phantomjs -- -g 'some reg-ex'
 
 Chrome:
 
@@ -58,4 +58,4 @@ Note: you must have Firefox installed
 Test in phantomjs, generate code coverage and check for 100% coverage:
 
     $ npm run browser-coverage-full-test
-    You can then view the test coverage by opening cache/coverage/browser/lcov-report/index.html in a browser
+    You can then view the test coverage by opening cache/coverage/browser/lcov-report/index.html in any browser
