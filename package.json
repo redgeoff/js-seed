@@ -36,9 +36,6 @@
     "TODO-build": "",
     "TODO-test-in-sauce": ""
   },
-  "dependencies": {
-    "bluebird": "^3.5.0"
-  },
   "devDependencies": {
     "beautify-proj": "^1.0.0",
     "browserify": "^14.4.0",
@@ -54,5 +51,8 @@
     "ignore": [
       "chai-as-promised"
     ]
+  },
+  "dependencies": {
+    "sporks": "0.0.1"
   }
 }
