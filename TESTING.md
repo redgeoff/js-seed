@@ -13,7 +13,8 @@ This will run the tests in node:
 You can also check for 100% code coverage using:
 
     $ npm run node-full-test
-    You can then view the test coverage by opening cache/coverage/node/lcov-report/index.html in a browser
+
+You can then view the test coverage by opening cache/coverage/node/lcov-report/index.html in a browser
 
 Run specific tests:
 
@@ -27,8 +28,8 @@ Run specific tests and generate code coverage:
 ## Manual browser tests
 
     $ npm run browser-server
-    Use any browser to visit http://127.0.0.1:8001/browser/index.html
-    And you can filter the tests, e.g. http://127.0.0.1:8001/browser/index.html?grep=reg-ex
+
+Use any browser to visit http://127.0.0.1:8001/browser/index.html. And you can filter the tests, e.g. http://127.0.0.1:8001/browser/index.html?grep=reg-ex
 
 
 ## Automated browser tests
@@ -56,4 +57,5 @@ Note: you must have Firefox installed
 Test in phantomjs, generate code coverage and check for 100% coverage:
 
     $ npm run browser-coverage-full-test
-    You can then view the test coverage by opening cache/coverage/browser/lcov-report/index.html in any browser
+
+You can then view the test coverage by opening cache/coverage/browser/lcov-report/index.html in any browser
