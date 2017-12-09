@@ -53,6 +53,6 @@
     ]
   },
   "dependencies": {
-    "sporks": "0.0.4"
+    "sporks": "1.0.0"
   }
 }
