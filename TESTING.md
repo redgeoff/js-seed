@@ -30,7 +30,7 @@ Run specific tests and generate code coverage:
 Without coverage:
 
     $ npm run browser-server
-    
+
 Or, with coverage:
 
     $ npm run browser-coverage-server
@@ -40,19 +40,15 @@ Use any browser to visit http://127.0.0.1:8001/browser/index.html. And you can f
 
 ## Automated browser tests
 
-phantomjs:
-
-    $ npm run browser-test-phantomjs
-
-You can also filter the tests, e.g.
-
-    $ npm run browser-test-phantomjs -- -g 'some reg-ex'
-
-Chrome:
+Headless testing in Chrome:
 
 Note: you must have Chrome installed
 
-    $ npm run browser-test-phantomjs -- -b selenium:chrome
+    $ npm run browser-test
+
+You can also filter the tests, e.g.
+
+    $ npm run browser-test -- -g 'some reg-ex'
 
 Firefox:
 
