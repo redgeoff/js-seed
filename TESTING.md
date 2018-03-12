@@ -40,7 +40,7 @@ Use any browser to visit http://127.0.0.1:8001/browser/index.html. And you can f
 
 ## Automated browser tests
 
-Headless testing in Chrome:
+Testing in headless Chrome:
 
 Note: you must have Chrome installed
 
@@ -54,9 +54,9 @@ Firefox:
 
 Note: you must have Firefox installed
 
-    $ npm run browser-test-phantomjs -- -b selenium:firefox
+    $ npm run browser-test -- -b selenium:firefox
 
-Test in phantomjs, generate code coverage and check for 100% coverage:
+To test in headless Chrome, generate code coverage and check for 100% coverage:
 
     $ npm run browser-coverage-full-test
 
